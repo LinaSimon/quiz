@@ -1,0 +1,83 @@
+html,body {
+    height:100%;
+    padding:0;
+    margin:0;
+}
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    size: 3em;
+    color: white;
+    z-index: 1;
+}
+h2 {
+    font-family:'Courier New', Courier, monospace;
+    size: 1em;
+    color: orange;
+}
+:link{
+    text-decoration: none;
+}
+#k4, #k5 {
+    display: none;
+}
+
+img {
+    width: 400px;
+    height: 250px;
+}
+#question {
+    margin: auto;
+    width: 100%;
+    height:50%;
+
+}
+#results {
+    margin: auto;
+    width: 50%;
+}
+#containerBox {
+    height:100%;
+    width:50%;
+    background:blue;
+    position:relative;
+    left:50%;
+    top:0;
+    transform:translate(-50%,0);
+}
+#heroContainer {
+    background:url(1900x1068_herolead_quiz.webp) no-repeat 50% 50%;
+	background-size:cover;
+    height:50vh;
+    width:100vh;
+    margin: auto;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+#startquiz {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .spotlight_question {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(circle, transparent 160px, rgba(0, 0, 0.85)200px);
+}
+body.spotlight_question {
+    background: url(./motleycrue.jpeg) no-repeat center;
+    background-size:cover;
+    width: 100%;
+    height: 100vh;
+    cursor: none;
+} */
+
+#spotlitghtTitle {
+    visibility: hidden;
+}
+
+#spotlightTitle.active {
+    visibility: visible;
+}
